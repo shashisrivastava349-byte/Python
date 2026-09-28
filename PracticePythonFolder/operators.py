@@ -45,3 +45,16 @@ c = c * 5 # equivalent to c *= 5
 print(c)
 c = c / 5  # equivalent to c /= 5
 print(c)
+
+#operator precedence determines the order in which operations are performed in an expression.
+# In Python, the order of precedence is as follows:
+# 1. Parentheses
+# 2. Exponentiation
+# 3. Multiplication, Division, Floor Division, Modulus
+# 4. Addition, Subtraction
+
+print(5*2+3/5) # multiplication and division are performed before addition
+print((5*2)+(3/5)-1) # parentheses override the default precedence
+print(2*2**4) # exponentiation is performed before multiplication
+print(8*3/2%7//3) # multiplication, division, modulus, and floor division are performed from left to right
+
