@@ -13,3 +13,5 @@
 # a=b=c=5
 # print(a,b,c)
 
+a=5
+print("Value of a is :", a)
